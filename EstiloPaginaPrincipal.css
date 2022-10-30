@@ -1,0 +1,415 @@
+
+body{
+    margin: 0;
+    font-family: "Trebuchet MS";
+    height: 541px;
+}
+
+header{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+    box-shadow: 0px 3px rgb(163, 163, 163);
+}
+
+.circulo{
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 3px rgb(32, 32, 32);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.textocatalogo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 3px rgb(31,31,31);
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.textoquienessomos{
+    color: white;
+    text-decoration: none;
+    
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(61,61,61);
+    box-shadow: 0px 3px rgb(31,31,31);
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+}
+
+.textocontacto{
+    color: white;
+    text-decoration: none;
+   
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 30px;
+    background-color: rgb(61,61,61);
+    box-shadow: 0px 3px rgb(31,31,31);
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+.Bienvenido{
+    background-color: rgb(31,31,31);
+    height: 250px;
+    display: flex;
+}
+
+.imagen1{
+    width:180px;
+    height:250px;
+    margin-top: 0px;
+    opacity: 0.3;
+}
+
+.imagen2{
+    width: 180px;
+    height: 250px;
+    opacity: 0.3;
+    margin-left: -5px;
+}
+.imagen3{
+    width: 160px;
+    height: 250px;
+    opacity: 0.3;
+}
+
+.bienvenidotexto{
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+    color: white;
+    text-shadow: 0px 2px 3px black;
+}
+
+.Nuestrosproductos{
+    background-color: rgb(31,31,31);
+    margin-top: -80px;
+    height: 250px;
+}
+
+.productostitulo{
+    text-align: center;
+    color:white;
+}
+
+.pantalon1{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px black;
+    position: relative;
+    top: -10px;
+    right: -60px;
+    width: 180px;
+    height: 200px;
+}
+
+.camisa1{
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px black;
+    height: 200px;
+    position: relative;
+    top: -210px;
+    right: -250px;
+}
+
+.preguntastitulo{
+    text-align: center;
+    margin-top: -1px;
+}
+
+.pregunta10{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    margin-top: -18px;
+}
+
+.pregunta20{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.p2{
+    text-align: center;
+    margin-top: -18px;
+}
+
+.colordefondo{
+    background-color: rgb(31,31,31);    
+}
+
+.h3primero{
+    color:white;
+    position: relative;
+    top: 70px;
+    right: -10px;
+    width: 230px;
+    text-shadow: 0px 2px 4px black;
+}
+
+.h3segundo{
+    color: white;
+    position: relative;
+    left: 150px;
+    top: -8px;
+    width: 220px;
+    height: 30px;
+    text-shadow: 0px 2px 4px black;
+}
+
+
+.envioh5{
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+    position: relative;
+    right: -290px;
+    top: -20px;
+    text-shadow: 0px 2px 4px black;
+}
+
+@media (min-width: 800px) and (min-width: 541px){
+    body{
+        margin: 0;
+        height: 541px;
+    }
+
+    header{
+        display: flex;
+    }
+
+    .textocatalogo{
+        position: relative;
+        left: 360px
+    }
+
+    .textoquienessomos{
+        position: relative;
+        left: 180px;
+    }
+
+    .imagen1{
+        width: 350px;
+        height: 450px;
+    }
+
+    .imagen2{
+        width: 350px;
+        height: 450px;
+    }
+    .imagen3{
+        width: 350px;
+        height: 450px;
+    }
+
+    .Nuestrosproductos{
+        position: relative;
+        margin-top: 0;
+        position: relative;
+        top: -80px;
+    }
+    
+    .pantalon1{
+        position: relative;
+        left: 300px;
+    }
+
+    .camisa1{
+        position: relative;
+        left: 510px;
+    }
+
+    .Bienvenido{
+        padding-bottom: 200px;
+    }
+
+    .bienvenidotexto{
+        position: relative;
+        top: -260px;
+    }
+
+    .preguntastitulo{
+        position: relative;
+        top: -70px;
+    }
+
+    .pregunta10{
+        position: relative;
+        top: -80px;
+    }
+    .p1{
+        position: relative;
+        top: -80px;
+
+    }
+
+    .pregunta20{
+        position: relative;
+        top: -80px;
+    }
+    .p2{
+        position: relative;
+        top: -80px;
+    }
+
+    .hola2{
+        margin-bottom: -80px;
+    }
+
+    .h3primero{
+        position: relative;
+        left: 50px;
+    }
+
+    .h3segundo{
+        position: relative;
+        left: 420px;
+    }
+
+    .envioh5{
+        position: relative;
+        left: 750px;
+    }
+}
+
+@media (min-width: 1200px) and (min-width: 541px){
+    body{
+        margin: 0;
+
+        height: 541px;
+    }
+
+        .textocatalogo{
+            position: relative;
+            left: 510px;
+        }
+
+        .textoquienessomos{
+            position: relative;
+            left: 255px;
+        }
+}
+
+@media (min-width: 360px) and (min-width: 541px){
+    body{
+        
+        margin-right: -130px;
+    }
+    
+    header{
+        padding-bottom: 40px;
+
+    }
+    .circulo{
+        height: 80px;
+        width: 80px;  
+    }
+    .textocatalogo{
+        font-size: 40px;
+        width: 220px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+
+    .textoquienessomos{
+        font-size: 40px;
+        width: 310px;
+        height: 50px;
+        position: relative;
+        left: 0px;
+        top: 29px;
+    }
+
+    .textocontacto{
+        font-size: 40px;
+        width: 210px;
+        height: 50px;
+        position: relative;
+        top: 26px;
+        left: 10px;
+    }
+
+    .imagen1{
+        width: 450px;
+        height: 550px;
+    }
+
+    .imagen2{
+        width: 450px;
+        height: 550px;
+    }
+
+    .imagen3{
+        width: 450px;
+        height: 550px;
+    }
+
+    .Nuestrosproductos{
+        position: relative;
+        top: -30px;
+        margin-top: -80px;
+        height: 400px;
+    }
+
+    .Bienvenido{
+        margin: 0;
+        position: relative;
+        height: 350px;
+    }
+
+    .productostitulo{
+        font-size: 40px;
+    }
+
+    .pantalon1{
+        width: 280px;
+        height: 300px;
+        left: 250px;
+    }
+
+    .camisa1{
+        width: 280px;
+        height: 300px;
+        position: relative;
+        top: -310px;
+        left: 590px;
+    }
+
+    .preguntastitulo{
+        margin-top: 60px;
+    }
+
+    .hola2{
+        width: 400px;
+        margin-bottom: 60px;
+    }
+
+    .colordefondo{
+        margin-bottom: -200px;
+        height: 300px;
+    }
+
+
+}
